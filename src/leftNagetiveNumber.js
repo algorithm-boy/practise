@@ -17,4 +17,4 @@ function leftNagetiveNumber(arr) {
 	return nagetiveNumber.concat(positiveNumber);
 }
 
-console.log(leftNagetiveNumber([-2, 10, 5, 8, -4, 2, -3, 7, 12, -88, -23, 35]));
+module.exports = leftNagetiveNumber;

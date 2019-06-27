@@ -3,8 +3,10 @@
 function run(arr) {
 	let set = new Set();
 	for (let i = 0; i < arr.length; i++) {
-		set.add(Math.pow(arr[i]), 2);
+		console.log();
+		set.add(Math.pow(arr[i], 2));
 	}
+	console.log(set.values());
 	return set.size;
 }
 
@@ -42,3 +44,8 @@ function optRun(arr) {
 	}
 	return size;
 }
+
+module.exports = {
+	run,
+	optRun,
+};

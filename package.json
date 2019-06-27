@@ -1,0 +1,25 @@
+{
+	"name": "algorithm",
+	"version": "1.0.0",
+	"description": "最近打算面 @#￥条，但是他们却要求算法，作为前端工程师，我打算补充一下这块知识。",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "mocha --watch --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/algorithm-boy/practise.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/algorithm-boy/practise/issues"
+	},
+	"homepage": "https://github.com/algorithm-boy/practise#readme",
+	"devDependencies": {
+		"mocha": "^6.1.4"
+	}
+}
